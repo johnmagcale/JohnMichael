@@ -29,6 +29,25 @@ html{
   font-family:Carrois+Gothic;
 }
 
+button.navbar-toggler{
+  background-color: #B0B0B0;
+  cursor: pointer;
+  padding: 0px;
+  width: 10%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapse:not(.show){
+  display: none;
+}
+
+#navbars{
+  text-align: right;
+}
+
 a:active{
   font-weight:bold;
   color:black;
@@ -56,7 +75,6 @@ a:hover{
   color:white;
   text-decoration: none;
 }
-
 
 .nav-link{
   font-family:Thasadith;
@@ -147,9 +165,10 @@ footer{
 }
 
 #myVideo {
-  position: relative;
-  right: 0;
-  bottom: 0;
+  position: fixed;
+  top: 50px;
+  margin-top: 0;
+  padding-top: 0;
   min-width: 100%;
   min-height: 100%;
 }
@@ -168,4 +187,55 @@ footer{
 
 #name-link:hover{
   color:white;
+}
+
+@media only screen and (max-width: 767px) and (max-height: 1023px) {
+
+  .navbar-expand-md{
+    background:white;
+    width:100%;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+  }
+
+  #myVideo{
+    object-fit: none;
+    object-position: 50% 50%;
+
+  }
+
+  ul .nav{
+    width: 100%;
+  }
+
+  .active{
+    display: block;
+  }
+
+
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
+
+  .navbar-expand-md{
+    background:white;
+    width:100%;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+  }
+
+  #myVideo{
+    object-fit: cover;
+
+  }
+
+
+
+
 }

@@ -5,6 +5,7 @@
         <title>Michael</title>
         <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic|Fjalla+One|Poppins|Thasadith:400,400i,700,700i" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles3.css">
         <link rel="shortcut icon" href="img/image.png"/>
         <link rel="stylesheet" href="aos.css">
@@ -17,8 +18,8 @@
         <div id="img">
         <img src="img/image.png" width="50" height="50" alt=""/>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <img id="nav_bar" src="img/nav.png" alt="" height="50px" width="50px"/>
         </button>
       <!--div class for the links in the navbar-->
         <div class="collapse navbar-collapse" id="navbars">
@@ -42,8 +43,17 @@
         </div>
       </div>
 
+      <div class="hiddenImage">
+        <img data-aos="fade-left" id="callingcard2" src="img/callingcard.jpg" style="width:100%;height:100%"/>
+      </div>
+
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
       <script src="aos.js"></script>
       <script type="text/javascript">
         AOS.init({

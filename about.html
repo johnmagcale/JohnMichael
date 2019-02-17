@@ -3,7 +3,6 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <title>Michael</title>
         <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic|Oswald|Raleway|Fjalla+One|Poppins|Cormorant|Staatliches|Thasadith:400,400i,700,700i" rel="stylesheet">
@@ -21,13 +20,12 @@
         <div id="img">
         <img src="img/image.png" width="50" height="50" alt=""/>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <img id="nav_bar" src="img/nav.png" alt="" height="50px" width="50px"/>
         </button>
-
-
       <!--div class for the links in the navbar-->
         <div class="collapse navbar-collapse" id="navbars">
+
           <ul class="nav navbar-nav ml-auto">
             <li><a class="nav-link" href="index.html">home</a></li>
             <li><a class="nav-link" href="about.html">about me</a></li>
@@ -60,24 +58,24 @@
       </section>
 
       <section id="myself1">
-        <div class="row featurette">
+        <div class="row featurette" id="birthday">
           <div class="col-md-12">
-            <img data-aos="fade-up" src="img/image.png" width="398" height="380" alt=""/>
+            <img id="cartoon_me" data-aos="fade-up" src="img/image.png" width="398" height="380" alt=""/>
             <h1 data-aos="fade-left" id="age">22 | Manila</h1>
             <p data-aos="fade-up" class="lead">I was born in May.</p>
           </div>
         </div>
 
-        <div class="row featurette">
-          <div class="col-md-6 order-md-1">
-            <img class="hobbies" src="img/dota2.png" width="300" height="351" alt=""/>
-            <img class="hobbies" src="img/nba.png" width="370" height="300" alt=""/>
-            <img class="hobbies" src="img/rap.png" width="336" height="351" alt=""/>
-            <img class="hobbies" src="img/reading.png" width="335" height="335" alt=""/>
-            <img class="hobbies" src="img/french.png" width="380" height="429" alt=""/>
-          </div>
+        <div class="row featurette" id="things">
           <div class="col-md-12">
             <h1 data-aos="fade-left" id="like">things I like</h1>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <img class="hobbies" data-aos="fade-up" src="img/dota2.png" width="300" height="351" alt=""/>
+            <img class="hobbies" data-aos="fade-up" src="img/nba.png" width="370" height="300" alt=""/>
+            <img class="hobbies" data-aos="fade-up" src="img/rap.png" width="336" height="351" alt=""/>
+            <img class="hobbies" data-aos="fade-up" src="img/reading.png" width="335" height="335" alt=""/>
+            <img class="hobbies" data-aos="fade-up" src="img/french.png" width="380" height="429" alt=""/>
           </div>
           <div class="col-md-6 order-md-2">
             <h2 data-aos="fade-up" class="hobbies-explanation" id="dota2">DOTA 2<span class="text-muted">| Defense of the Ancients 2</span></h2>
@@ -169,7 +167,13 @@
         </div>
       </section>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
       <script src="aos.js"></script>
       <script type="text/javascript">
         AOS.init({
