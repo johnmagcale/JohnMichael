@@ -443,18 +443,21 @@ $height-tablet: 1366px;
 
   .USTimg1{
     @extend %fixed;
+    background-image: linear-gradient(-90deg, #FFC900, black);
   }
 
   .HARVARDimg1{
     @extend %fixed;
+    background-image: linear-gradient(-90deg, #4d0600, #ffffff);
   }
 
   .UPimg1{
     @extend %fixed;
+    background-image: linear-gradient(-90deg, #800000, #228b22);
   }
 
   .school{
-    @extend %fixed;
+    @extend %dontdisplayit;
     max-width: 414px;
   }
 

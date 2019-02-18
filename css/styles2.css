@@ -340,7 +340,7 @@ footer {
     display: block;
   }
 
-  .hobbies {
+  .school, .hobbies {
     display: none;
   }
 
@@ -415,8 +415,20 @@ footer {
     max-width: 100%;
   }
 
-  .school, .UPimg1, .HARVARDimg1, .USTimg1 {
+  .UPimg1, .HARVARDimg1, .USTimg1 {
     background-image: fixed;
+  }
+
+  .USTimg1 {
+    background-image: linear-gradient(-90deg, #FFC900, black);
+  }
+
+  .HARVARDimg1 {
+    background-image: linear-gradient(-90deg, #4d0600, #ffffff);
+  }
+
+  .UPimg1 {
+    background-image: linear-gradient(-90deg, #800000, #228b22);
   }
 
   .school {
