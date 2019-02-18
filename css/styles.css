@@ -291,7 +291,7 @@ footer{
   }
 
   .fixed-bg {
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
