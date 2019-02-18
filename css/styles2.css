@@ -420,9 +420,7 @@ footer {
   }
 
   .school {
-    min-height: 100%;
-    background-size: 100%;
-    width: 100%;
+    max-width: 414px;
   }
 
   #education_middle {
