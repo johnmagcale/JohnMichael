@@ -219,12 +219,17 @@ footer{
     width: 100%;
   }
 
+  .featurette-heading{
+    margin-top: 50px;
+  }
+
+
   #dadimg{
     position: center;
     padding: 0;
     width: 0;
     left: -340px;
-    top: 300px;
+    top: 250px;
     padding-bottom: 300px;
   }
 
@@ -291,10 +296,8 @@ footer{
   }
 
   .fixed-bg {
-    background-attachment: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+    display: none;
   }
 
 
