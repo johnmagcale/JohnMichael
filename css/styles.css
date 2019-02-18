@@ -215,6 +215,91 @@ footer{
     display: block;
   }
 
+  .row-featurete{
+    width: 100%;
+  }
+
+  #dadimg{
+    position: center;
+    padding: 0;
+    width: 0;
+    left: -340px;
+    top: 300px;
+    padding-bottom: 300px;
+  }
+
+  #dadimg1{
+    position: center;
+    padding-right: 0;
+    height: 399px;
+    width: 300px;
+  }
+
+  #momimg{
+    position: center;
+    padding: 0;
+    width: 0;
+    left: -340px;
+    top: 300px;
+    padding-bottom: 300px;
+  }
+
+  #momimg1{
+    position: center;
+    padding-right: 0;
+    top: 100px;
+    height: 330px;
+    width: 330px;
+  }
+
+  #adnimg{
+    position: center;
+    padding: 0;
+    width: 0;
+    left: -340px;
+    top: 300px;
+    padding-bottom: 300px;
+  }
+
+  #adnimg1{
+    position: center;
+    padding-right: 0;
+    top: 100px;
+    height: 330px;
+    width: 300px;
+  }
+
+  #jrimg{
+    position: center;
+    padding: 0;
+    width: 0;
+    left: -340px;
+    top: 300px;
+    padding-bottom: 300px;
+  }
+
+  #jrimg1{
+    position: center;
+    padding-right: 0;
+    top: 100px;
+    height: 330px;
+    width: 330px;
+  }
+
+  u{
+    display: none;
+  }
+
+  .fixed-bg {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+
 
 }
 
