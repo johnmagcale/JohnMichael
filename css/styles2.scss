@@ -455,6 +455,11 @@ $height-tablet: 1366px;
 
   .school{
     @extend %fixed;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   #education_middle{
