@@ -14,7 +14,10 @@ So long as you have IE, Google Chrome, or any Web Browser you are good to go upo
 ## Where can I see the project/ website?
 
 The link to the website published/ pushed here in github is this:
-https://johnmagcale.github.io/JohnMichael/
+https://johnmagcale.github.io/JohnMichael/of
+
+Youtube URL on the go through of the Website
+https://www.youtube.com/watch?v=Ls3AjX8Zs6w
 
 This can be viewed in the following devices:
 Mobile devices - (Iphone 4,5,6,6+,7,7+,8,8+,X and Android Phones as well)
@@ -28,7 +31,7 @@ Desktop/ Laptop
 * javascript
 * jquery
 * bootstrapcdn
-* AOS 
+* AOS
 * Atom (IDE)
   - Emmet
   - Change Case
